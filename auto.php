@@ -5,7 +5,7 @@
 date_default_timezone_set("Asia/Bangkok");
 error_reporting(0);
 function call($addr) {
-    $data= "address=$addr&sponsor=10507";
+    $data= "address=$addr&sponsor=19794";
     $cok = tempnam('tmp','avo'.rand(1000000,9999999).'tmp.txt');
     $c = curl_init("https://thebestbitcoinfaucet.com/");
     curl_setopt($c, CURLOPT_REFERER, "https://thebestbitcoinfaucet.com/");
